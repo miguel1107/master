@@ -1,14 +1,14 @@
 # 1. PREPARANDO DOCKER
 ## Ejecute los siguientes comandos para el despliegue en Docker de mongoDB y nodeJs
-### 1.Creamos la imagen
+### Creamos la imagen
 `docker-compose build`
-### 2. Iniciamos los servicios
+### Iniciamos los servicios
 `docker-compose up`
 
 ## 2. APIS
 ## Insertamos data en el mongoDB
 `GET: http://localhost:3000/setdata`
-## Consultas todos los registros
+## Consultar todos los registros
 `GET: http://localhost:3000/`
 ## Buscar documentos que pertenecen a un pais
 ~~~
